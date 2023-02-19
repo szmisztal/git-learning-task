@@ -12,5 +12,4 @@ for key, value in lista_zakupów.items():
 ilość_produktów = (len(lista_zakupów['piekarnia'] + lista_zakupów['warzywniak']))
 print("W sumię kupuję", ilość_produktów, "produktów")
 
-print("dcba")
-
+print("abcd")
