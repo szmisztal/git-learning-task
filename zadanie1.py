@@ -1,13 +1,13 @@
 print("Lista zakupów:")
 
-lista_zakupów = {
+shopping_list = {
     'piekarnia': ['chleb', 'pączek', 'bułki'],
     'warzywniak': ['marchew', 'seler', 'rukola']
 }
 
-for key, value in lista_zakupów.items():
+for key, value in shopping_list.items():
     value = str(value)
     print("Idę do", key.capitalize(), "i kupuję tam", value.title())
 
-ilość_produktów = (len(lista_zakupów['piekarnia'] + lista_zakupów['warzywniak']))
-print("W sumię kupuję", ilość_produktów, "produktów")
+how_many_products = (len(shopping_list['piekarnia'] + shopping_list['warzywniak']))
+print("W sumię kupuję", how_many_products, "produktów")
